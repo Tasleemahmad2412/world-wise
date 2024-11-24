@@ -1,0 +1,36 @@
+.product {
+  margin: 2rem;
+  padding: 2rem 3rem;
+  background-color: var(--color-dark--1);
+  min-height: calc(100vh - 5rem);
+}
+
+.product section {
+  width: clamp(80rem, 80%, 90rem);
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.product img {
+  width: 80%;
+  height: auto;
+}
+
+.product h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+
+.product p {
+  text-wrap: wrap;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.product section a {
+  margin-top: 2rem;
+}
